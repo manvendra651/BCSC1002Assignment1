@@ -59,4 +59,7 @@ public class Library {
                 "allBooksCurrentlyAvailable=" + Arrays.toString(allBooksCurrentlyAvailable) +
                 '}';
     }
+
+    public void issuedBook(String bookName) {
+    }
 }
