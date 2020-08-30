@@ -11,4 +11,8 @@ public class Book {
     private String authorName;
     private String thirteenDigitISBNNumber;
 
+    public Book(String bookName) {
+        this.bookName = bookName;
+    }
+
 }
