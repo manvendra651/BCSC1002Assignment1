@@ -55,4 +55,13 @@ public class Book {
     public int hashCode() {
         return Objects.hash(bookName, authorName, thirteenDigitISBNNumber);
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookName='" + bookName + '\'' +
+                ", authorName='" + authorName + '\'' +
+                ", thirteenDigitISBNNumber='" + thirteenDigitISBNNumber + '\'' +
+                '}';
+    }
 }
