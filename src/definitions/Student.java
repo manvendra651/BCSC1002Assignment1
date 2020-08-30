@@ -12,4 +12,19 @@ public class Student {
     private int numberOfBooksIssued;
     private Book[] nameOfBooksIssued;
 
+    public Student(String[] nameOfStudentFormatFirstMiddleLast) {
+        this.nameOfStudentFormatFirstMiddleLast = nameOfStudentFormatFirstMiddleLast;
+    }
+
+    public Student(long universityRollNumber) {
+        this.universityRollNumber = universityRollNumber;
+    }
+
+    public Student(int numberOfBooksIssued) {
+        this.numberOfBooksIssued = numberOfBooksIssued;
+    }
+
+    public Student(Book[] nameOfBooksIssued) {
+        this.nameOfBooksIssued = nameOfBooksIssued;
+    }
 }
