@@ -35,7 +35,7 @@ public class FrontDesk {
                     System.out.println("Enter the name of the book you want to read: ");
                     scanner.nextLine();
                     String bookName = scanner.nextLine();
-                    mylibrary.issuedBook(bookName);
+                    mylibrary.issuedBook();
                     break;
 
                 case RETURN_BOOK:

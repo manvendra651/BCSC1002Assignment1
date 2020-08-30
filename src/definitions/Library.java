@@ -60,6 +60,6 @@ public class Library {
                 '}';
     }
 
-    public void issuedBook(String bookName) {
+    public void issuedBook() {
     }
 }
