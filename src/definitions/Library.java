@@ -44,6 +44,15 @@ public class Library {
         return Arrays.hashCode(allBooksCurrentlyAvailable);
     }
 
+    public void listOfBooksIssued() {
+        for (Book book : allBooksCurrentlyAvailable) {
+            System.out.println(book);
+        }
+    }
+    public void returnedBook(String bookName) {
+        System.out.println(bookName + " has been returned successfully . ");
+    }
+
     @Override
     public String toString() {
         return "Library{" +
