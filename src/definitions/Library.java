@@ -35,4 +35,11 @@ public class Library {
     public int hashCode() {
         return Arrays.hashCode(allBooksCurrentlyAvailable);
     }
+
+    @Override
+    public String toString() {
+        return "Library{" +
+                "allBooksCurrentlyAvailable=" + Arrays.toString(allBooksCurrentlyAvailable) +
+                '}';
+    }
 }
