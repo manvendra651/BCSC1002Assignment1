@@ -62,6 +62,15 @@ public class Student {
     public void setNameOfBooksIssued(Book[] nameOfBooksIssued) {
         this.nameOfBooksIssued = nameOfBooksIssued;
     }
+    @Override
+    public String toString() {
+        return "Student{" +
+                "nameOfStudentFormatFirstMiddleLast=" + Arrays.toString(nameOfStudentFormatFirstMiddleLast) +
+                ", universityRollNumber=" + universityRollNumber +
+                ", numberOfBooksIssued=" + numberOfBooksIssued +
+                ", nameOfBooksIssued=" + Arrays.toString(nameOfBooksIssued) +
+                '}';
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -82,13 +91,5 @@ public class Student {
         return result;
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "nameOfStudentFormatFirstMiddleLast=" + Arrays.toString(nameOfStudentFormatFirstMiddleLast) +
-                ", universityRollNumber=" + universityRollNumber +
-                ", numberOfBooksIssued=" + numberOfBooksIssued +
-                ", nameOfBooksIssued=" + Arrays.toString(nameOfBooksIssued) +
-                '}';
-    }
+
 }
